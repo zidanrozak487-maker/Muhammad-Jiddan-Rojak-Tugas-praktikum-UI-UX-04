@@ -1,0 +1,112 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+/* Pembungkus halaman utama bergaya frame komputer/ponsel */
+.container {
+    width: 100%;
+    max-width: 550px;
+    background-color: #ffffff;
+    border: 2px solid #3498db;
+    padding: 15px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+/* Styling Banner Atas */
+.header-banner {
+    background-color: #a0c4ff;
+    padding: 12px;
+    text-align: center;
+    border: 1px solid #3498db;
+}
+
+.header-banner h1 {
+    margin: 0;
+    color: #002060;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/* Styling Kotak Kutipan Kuning */
+.quote-box {
+    background-color: #ffd166;
+    padding: 10px;
+    text-align: center;
+    margin-top: 4px;
+    border: 1px solid #f7b731;
+    font-size: 12px;
+}
+
+.quote-box p {
+    margin: 0 0 5px 0;
+    line-height: 1.4;
+}
+
+.quote-box small {
+    font-weight: bold;
+    color: #c0392b;
+    display: block;
+}
+
+/* Urutan Navigasi */
+.nav-links {
+    text-align: center;
+    margin: 12px 0;
+}
+
+.nav-links a {
+    color: #2980b9;
+    text-decoration: underline;
+    margin: 0 8px;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+/* Tata Letak Gambar Berdampingan */
+.image-gallery {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-bottom: 15px;
+}
+
+.image-gallery img {
+    width: 130px;
+    height: 95px;
+    object-fit: cover;
+    border: 1px solid #bdc3c7;
+}
+
+/* Format Teks Paragraf */
+.content-text {
+    font-size: 13px;
+    line-height: 1.5;
+    text-align: justify;
+    color: #222222;
+    margin-bottom: 10px;
+}
+
+/* Efek Huruf Pertama Besar (Drop Cap 'B') */
+.drop-cap {
+    font-size: 46px;
+    font-weight: bold;
+    color: #002060;
+    float: left;
+    line-height: 38px;
+    padding-right: 6px;
+    margin-top: 4px;
+}
+
+/* Heading Profil Perkutut Jawa */
+h2 {
+    font-size: 14px;
+    color: #002060;
+    margin-top: 15px;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
